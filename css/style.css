@@ -1,0 +1,100 @@
+body{
+     background-image: "images/2.jpeg" ;
+}
+.arav {
+     place-items: center;
+     text-align:center;
+     font-family: "bold italic";
+     display: flex;
+	justify-content: center;
+      background-color: greenyellow;
+}
+
+img{
+     width: 300px;
+     height: 300px;
+
+}
+.arav1{
+     font-family: "intact";
+     font-size: 20px;
+     text-align: center;
+}
+.arav2
+{   
+     font-size: 30;
+     font-family: "italic";
+     background-color: grey;
+} 
+     
+
+
+
+li 
+{
+      float: left;
+      border-right:1px solid whitesmoke ;
+      
+}
+
+
+li a
+{
+     display: block;
+     background-color:BLACK;
+      color: white;
+      padding: 18px 20px;
+
+}
+
+   
+    
+
+ul 
+{ 
+     list-style-type: none;
+     margin: 0;
+     padding:0;
+     overflow: hidden;
+    text-align: "center";
+    
+}
+.arav4
+{
+     float: right;
+     
+}
+.ab img 
+{
+  width: 100%;
+
+}
+
+
+a:hover{
+     background-color: red;
+}
+.rt 
+p{
+     font-family: "segoe print";
+     font-size: 40px;
+     text-align: center;
+}
+
+.images{
+     background-color: blueviolet;
+     display: flex;
+     gap: 100px;
+}
+.raja
+{
+     text-align: center;
+     font-family: "Georgia";
+     font-size: 50px;
+}
+
+.qq
+{
+     display: flex;
+     gap:10px;
+}
