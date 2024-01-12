@@ -6,27 +6,102 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label for="fname" >first name:</label> <br>
-        <input type="text" id="fname" name="fname" value="aravind"><br>
-        <label for="lname" >last name:</label> <br>
-        <input type="text" id="lname" name="lname" value="kannan"><br>
-        <label for="pno" >phone number:</label> <br>
-        <input type="text" id="pn" name="pno" value="9876543210"><br>
-        <input type="submit" name="submit">
+    <b:>
+        <label><b><first>firstname:</b></label><br>
+        <input 
+        type="text" 
+        id="fname" 
+        name="fname" 
+        value=""
+        placeholder="enter first name"
+        /><br>
+
+        <label><b>last name</b></label><br>
+        <input 
+        type="text" 
+        id="lname" 
+        name="lname"
+        value=""
+        placeholder="enter the last name "
+        /><br>
+
+        <label><b>phone number:</b></label><br>
+        <input 
+        type="number" 
+        id="pno" 
+        name="pno" 
+        value=""
+        maxlength="15"
+        placeholder="enter the phone number"
+        /><br>
+
+        <label><b>e mail:</b></label><br>
+        <input 
+        type="mail"
+        id="mailid"
+        name="mailid"
+        value=""
+        placeholder="enter the email"
+        /><br>
     </form>
+
+    <input type="submit" id="register" onclick="REGISTRATION()">
+
+      
+    
+    
     <table border="3px">
         <tr>
-            <td id="fnamed"></td>
-            <td id="lnamed"></td>
-            <td id="pno"></td>
+          <th colspan="2px">REGISTRATION FORM</th>
         </tr>
-         
-    </table>
-        <script src="script.js"></script>
+        <tr>
+            <td>firstname</td>
+            <td id="firstname"></td>
+        </tr>
+        <tr>
+            <td>lastname</td>
+            <td id="lastname"></td>
+        </tr>
+        <tr>
+            <td>phonenumber</td>
+            <td id="phonenumber"></td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td id="email"></td>
+        </tr>
+
+       
+        </table>
+        <script>
+            function REGISTRATION(){
+
+                var firstname=document.getElementById("fname").value;            
+                    document.getElementById("firstname").innerHTML=firstname;
+
+
+
+                var lastname=document.getElementById("lname").value;
+                document.getElementById("lastname").innerHTML=lastname;
+
+
+               var phonenumber=document.getElementById("pno").value;
+               document.getElementById("phonenumber").innerHTML=phonenumber;
+
+
+               var email=document.getElementById("mailid").value;
+               document.getElementById("email").innerHTML=email;
+
+            }
+
+
+
+        </script>
+
+        </tr>
       
           
-s
+
 
         
 </body>
