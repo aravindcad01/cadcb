@@ -70,8 +70,3 @@ console.log("value of b")
 
 
 
-
-
-    }
-}
-  
