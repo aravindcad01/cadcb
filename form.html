@@ -43,6 +43,16 @@
         value=""
         placeholder="enter the email"
         /><br>
+
+        <label><b>date of birth:</b></label>
+        <input
+        type="date"
+        id="DOB"
+        NAME="DOB"
+        value=""
+        placeholder="D.O.B"
+        /><br>
+
     </form>
 
     <input type="submit" id="register" onclick="REGISTRATION()">
@@ -70,6 +80,10 @@
             <td>email</td>
             <td id="email"></td>
         </tr>
+        <TR>
+            <TD>dateofbirth</TD>
+            <td id="dateofbirth"></td>
+        </TR>
 
        
         </table>
@@ -91,6 +105,9 @@
 
                var email=document.getElementById("mailid").value;
                document.getElementById("email").innerHTML=email;
+
+               var dateofbirth=document.getElementById("DOB").value;
+               document.getElementById(dateofbirth).innerHTML=dateofbirth;
 
             }
 
