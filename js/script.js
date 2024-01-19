@@ -65,10 +65,6 @@ console.log("value of a is ..."+a);
 console.log("value of b")
 
 
-function onlinereg(){
-    var a=document.getElementById("apply").value;
-    console.log(a);
-}
 
 
 
