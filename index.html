@@ -48,18 +48,11 @@
           communities forward</b></p>
 </div>
 <br>
-<div class="2">
-<!-- 
-	<ul class="yy">
-		<li></li>
-        <li></li>
-	</ul>		
-   </div>
- -->
+
 
    <div class="images">
 	<figure>
-		<img src="images/gg.jpg" alt="html.tutorial">
+		<img src="images/gg.jpg" alt="html.tutorial" width="300px" height="168px">
 		<figcaption style="text-align:center;"><h1> 250+</h1>
 		<h2>Cities covered</h2>
 		<h3>Across India, Australia, New Zealand and the UK</h3></figcaption>
@@ -120,53 +113,63 @@
 
 </script>
 
-<!-- Slider main container -->
-<div class="swiper">
-	<!-- Additional required wrapper -->
-	<div class="swiper-wrapper">
-	  <!-- Slides -->
-	  <div class="swiper-slide"><img src="https://picsum.photos/id/237/200/300" alt=""></div>
-	  <div class="swiper-slide"><img src="https://picsum.photos/id/236/200/300" alt=""></div>
-	  <div class="swiper-slide"><img src="https://picsum.photos/200/300?grayscale" alt=""></div>
-	  ...
-	</div>
-	<!-- If we need pagination -->
-	<div class="swiper-pagination"></div>
-  
-	<!-- If we need navigation buttons -->
-	<div class="swiper-button-prev"></div>
-	<div class="swiper-button-next"></div>
-  
-	<!-- If we need scrollbar -->
-	<div class="swiper-scrollbar"></div>
-  </div>
 
-  <script>
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
-  </script>
+ 
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+	  // Optional parameters
+	  direction: 'horizontal',
+	  loop: true,
+	
+	  // If we need pagination
+	  pagination: {
+		el: '.swiper-pagination',
+	  },
+	
+	  // Navigation arrows
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	
+	  // And if we need scrollbar
+	  scrollbar: {
+		el: '.swiper-scrollbar',
+	  },
+	});
+	
+	  </script>
 </body>
 </html>
+
+<!-- <div class="imagecontainer">
+
+	
+<div class="swiper">
+	<div class="swiper-wrapper">
+	  <div class="swiper-slide"><img src="images/2.jpeg" alt=""></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/232/1000/300" alt=""></div>
+	  <div class="swiper-slide"><img src="https://picsum.photos/id/231/1000/300" alt=""></div>
+	  ...
+	</div>
+	<div class="swiper-pagination"></div>
+  
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+  
+  </div>
+
+</div> -->
+
+<!--
+<div class="2">
+
+	<ul class="yy">
+		<li></li>
+        <li></li>
+	</ul>		
+   </div>
+ -->

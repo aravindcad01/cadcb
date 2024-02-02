@@ -10,11 +10,7 @@ body{
       background-color: greenyellow;
 }
 
-img{
-     width: 300px;
-     height: 300px;
 
-}
 .arav1{
      font-family: "intact";
      font-size: 20px;
@@ -86,6 +82,7 @@ p{
      display: flex;
      gap: 100px;
 }
+
 .raja
 {
      text-align: center;
