@@ -7,7 +7,8 @@ body{
      font-family: "bold italic";
      display: flex;
 	justify-content: center;
-      background-color: greenyellow;
+      background-color: rgb(236, 236, 53);
+      height: 300px;
 }
 
 
@@ -100,4 +101,10 @@ p{
 .swiper {
   width: 1000px;
   height: 300px;
+}
+
+.abt{
+     font-size: larger;
+     background-color: #0603a5;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
