@@ -27,7 +27,7 @@ body{
 
 
 
-li 
+.arav3 li 
 {
       float: left;
       border-right:1px solid whitesmoke ;
@@ -47,7 +47,7 @@ li a
    
     
 
-ul 
+.arav3 ul 
 { 
      list-style-type: none;
      margin: 0;
@@ -107,4 +107,37 @@ p{
      font-size: larger;
      background-color: #0603a5;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.us{
+     font-size: 30;
+     font-family:Georgia;
+
+}
+.safe  li
+{
+     font-size: 200px;
+     text-align: center;
+}
+
+safe li a
+{
+     display: block;
+     background-color:BLACK;
+      color: white;
+      padding: 18px 20px;
+
+}
+
+   
+    
+
+.safe ul 
+{ 
+     list-style-type: none;
+     margin: 0;
+     padding:0;
+     overflow: hidden;
+    text-align: "center";
+    
 }
