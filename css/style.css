@@ -1,13 +1,16 @@
 body{
      background-image: "images/2.jpeg" ;
 }
+h1{
+     font-family: audiowide;
+}
 .arav {
      place-items: center;
      text-align:center;
      font-family: "bold italic";
      display: flex;
 	justify-content: center;
-      background-color: rgb(236, 236, 53);
+      background-color: rgb(8, 8, 5);
       height: 300px;
 }
 
@@ -141,3 +144,28 @@ safe li a
     text-align: "center";
     
 }
+.imgcontainer
+{
+     padding-left: 500px;
+     padding-top: 700px;
+     background-size: cover;
+     height: auto;
+     width: auto;
+     background: url(../images/login.jpg);
+     
+}
+
+.input-group
+{
+    padding-left: 1100px;
+}
+
+
+
+@media screen and (max-width :300px){
+     li a{
+          font-size: 10px;
+     }
+     
+}
+     
