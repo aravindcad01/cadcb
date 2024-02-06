@@ -1,32 +1,37 @@
 <html>
-  <head>
-    <title>login</title>
-  
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<form action="action_page.php" method="post">
+    
+    <head>
+        <title>
+            login
+        </title>
+        <link rel="stylesheet" href = "css/login.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    </head>
 
-  
-    <div class="imgcontainer">
+    <body>
+      
      
-  
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required><BR>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required><br>
-  
-      <button type="submit">Login</button>
-      <label><br>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label><br>
-    </div>
-  
-    <div class="container1" >
-      <button type="button" class="cancelbtn">Cancel</button><br>
-      <span class="psw">Forgot <a href="#">password?</a></span><br>
-    </div>
+        <div class="fon">
+       <!--Username-->     
+     <label for = "username"> ENTER USERNAME :</label>
+     <input type ="text" id ="username" value =""><br><br>
+     <!--Password-->
+     <label for = "password">ENTER PASSWORD :</label>
+     <input type ="text" id ="password" value=""><br><br>
+     <!--phone number-->
+     <label for = "password"> PHONE NUMBER :</label>
+     <input type ="number" id ="password" value=""><br><br>
+
+
+     <!--Submit Buttom-->
+     <input type="submit" value="Login"><br><br>
+
+<!--Forget Password-->
+<div class="fg">
+  <button>forgot password ??</button> <br><br>
   </div>
-  </form>
-  </html>
+
+
+    </div>
+</body>
+</html>

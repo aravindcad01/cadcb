@@ -3,12 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
-    background-color: rgb(211, 212, 207);
+    background-color: rgb(191, 192, 188);
     ;
 
     
 }
-a:hover{
+sh:hover{
     background-color:black
 }
 .safe a{
@@ -21,7 +21,15 @@ img
 }
 .found
 {
-    margin-left: 400px;
+    margin-left: 900px;
+    font-family: initial;
+    color: rgb(10, 10, 10);
+}
+.ind
+{
+   padding-left: 1000px;
+   font-style: oblique;
+   color: crimson;
 }
 
 .input-group{
