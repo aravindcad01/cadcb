@@ -7,7 +7,7 @@ body{
      font-family: "bold italic";
      display: flex;
 	justify-content: center;
-      background-color: rgb(236, 236, 53);
+      background-color: rgb(227, 236, 241);
       height: 300px;
 }
 
@@ -113,31 +113,4 @@ p{
      font-size: 30;
      font-family:Georgia;
 
-}
-.safe  li
-{
-     font-size: 200px;
-     text-align: center;
-}
-
-safe li a
-{
-     display: block;
-     background-color:BLACK;
-      color: white;
-      padding: 18px 20px;
-
-}
-
-   
-    
-
-.safe ul 
-{ 
-     list-style-type: none;
-     margin: 0;
-     padding:0;
-     overflow: hidden;
-    text-align: "center";
-    
 }

@@ -1,0 +1,25 @@
+.safe div
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: rgb(211, 212, 207);
+    ;
+
+    
+}
+a:hover{
+    background-color:black
+}
+.safe a{
+    color: darkorange;
+    display: inline-flex;
+}
+img
+{
+    margin-left: 300px;
+}
+.found
+{
+    margin-left: 400px;
+}
