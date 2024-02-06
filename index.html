@@ -4,10 +4,9 @@
 	<title>GO GO TAXI</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 	<div class="arav">
@@ -18,16 +17,17 @@
 	<div class="arav1">
 		<h1>HAVE A SAFE RIDE</h1>
 	</div>
-	<div class="input-group">
-		<div class="form-outline" data-mdb-input-init>
-		  <input id="search-focus" type="search" id="form1" class="form-control" />
-		  <label class="form-label" for="form1">Search</label>
+	<div class="container mt-3">
+		<div class="row">
+		  <div class="col-md-6 offset-md-8 d-flex justify-content-end">
+			<!-- Search form with Bootstrap classes -->
+			<form class="form-inline">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		  </div>
 		</div>
-		<button type="button" class="btn btn-primary" data-mdb-ripple-init>
-		  <i class="fas fa-search"></i>
-		</button>
 	  </div>
-	  
 		
 
 	<div class="arav2">
@@ -129,35 +129,14 @@
  
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-	const swiper = new Swiper('.swiper', {
-	  // Optional parameters
-	  direction: 'horizontal',
-	  loop: true,
-	
-	  // If we need pagination
-	  pagination: {
-		el: '.swiper-pagination',
-	  },
-	
-	  // Navigation arrows
-	  navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	  },
-	
-	  // And if we need scrollbar
-	  scrollbar: {
-		el: '.swiper-scrollbar',
-	  },
-	});
-	
-	  </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
 
-<div class="imagecontainer">
+<!--<div class="imagecontainer">
 
 	
 <div class="swiper">
@@ -176,3 +155,4 @@
 
 </div> 
 
+-->
