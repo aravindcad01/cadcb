@@ -106,14 +106,6 @@ p{
   height: 300px;
 }
 
-.abt{
-     font-size: larger;
-     background-color: #0603a5;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-
 .safe  li
 {
      font-size: 200px;
@@ -142,4 +134,17 @@ safe li a
     
 }
 
+.abt{
+     font-size: larger;
+     background-color: #35d3f7;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.us
+{
+     font-style: oblique;
+     font-family: sans-serif;
+}
 
