@@ -82,7 +82,7 @@ p{
 }
 
 .images{
-     background-color: blueviolet;
+     background-color: rgb(225, 248, 17);
      display: flex;
      gap: 100px;
 }
@@ -137,8 +137,8 @@ safe li a
 .abt{
      font-size: larger;
      background-color: #35d3f7;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
 }
 
 
@@ -146,5 +146,12 @@ safe li a
 {
      font-style: oblique;
      font-family: sans-serif;
+     background-color: gold;
+}
+.whats
+{
+     padding-left: 20px;
+     display: flex;
+     gap: px;  
 }
 
