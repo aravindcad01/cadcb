@@ -148,10 +148,8 @@ safe li a
      font-family: sans-serif;
      background-color: gold;
 }
-.whats
+.figure
 {
-     padding-left: 20px;
-     display: flex;
-     gap: px;  
-}
+border-right: 1px solid black; 
 
+}

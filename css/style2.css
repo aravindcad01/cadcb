@@ -81,5 +81,75 @@ img
   .contact
   {
     display: flex;
+    padding-left: 450px;
+    padding-top: 100px;
+    
   }
 
+
+li
+{
+
+  list-style: none;
+}
+
+li a
+{
+     display: block;
+     background-color:BLACK;
+      color: white;
+      padding: 18px 20px;
+      text-decoration: none;
+
+}
+
+   
+    
+
+.con1 ul 
+{ 
+     list-style-type: none;
+     margin: 0;
+     padding:0;
+     overflow: hidden;
+    text-align: "center";
+    display: flex;
+    float: left;
+    
+    
+}
+
+.con2
+{
+  padding-top: 150px;
+  text-align: center;
+  
+}
+
+
+a:hover
+{
+  background-color: rgb(5, 229, 236);
+}
+
+.ph
+{
+  font-family: monospace;
+  padding-right: 50px;
+}
+.concol
+{
+  background-color: rgb(240, 202, 31)
+  ;
+}
+.avail
+{
+  padding-left: 1000px;
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.availhead
+{
+  padding-left: 1000px;
+  text-decoration: underline;
+}
