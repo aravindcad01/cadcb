@@ -16,7 +16,7 @@ h1{
 
 
 .arav1{
-     font-family: "intact";
+     font-family:"segoe print" ;
      font-size: 20px;
      text-align: center;
 }
@@ -24,7 +24,7 @@ h1{
 {   
      font-size: 30;
      font-family: "italic";
-     background-color: grey;
+     background-color: rgb(241, 140, 7);
 } 
      
 
@@ -153,3 +153,5 @@ safe li a
 border-right: 1px solid black; 
 
 }
+
+

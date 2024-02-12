@@ -123,33 +123,41 @@ li a
 {
   padding-top: 150px;
   text-align: center;
-  
+ 
 }
 
 
 a:hover
 {
-  background-color: rgb(5, 229, 236);
+  background-color: rgb(228, 206, 12);
 }
 
 .ph
 {
   font-family: monospace;
   padding-right: 50px;
+  color: rgb(247, 248, 246);
+  font-size: 30px;
 }
 .concol
 {
-  background-color: rgb(240, 202, 31)
+  background-color: rgb(10, 187, 178)
   ;
 }
 .avail
 {
   padding-left: 1000px;
-  font-size: 20px;
+  font-size: 40px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .availhead
 {
   padding-left: 1000px;
   text-decoration: underline;
+  font-size: 20px;
+}
+.web
+{
+  background :url(https://i.postimg.cc/QMzm7mPh/webbg.jpg) no-repeat center center fixed  ;
+  background-size: cover;
 }
