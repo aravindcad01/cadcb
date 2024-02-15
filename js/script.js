@@ -74,3 +74,34 @@ console.log("value of b")
 
 
 
+$(document).ready(function() {
+    // Initialize Select2 on the pickupLocation element
+    $('#pickupLocation').select2({
+      placeholder: 'Search for pickup location',
+      ajax: {
+        url: 'your_endpoint_for_location_suggestions', // Replace with your endpoint for location suggestions
+        dataType: 'json',
+        delay: 250,
+        processResults: function(data) {
+          return {
+            results: data
+          };
+        },
+        cache: true
+      },
+      templateResult: formatLocation // Custom function to format dropdown options
+    });
+  });
+  
+  // Custom function to format dropdown options
+  function formatLocation(location) {
+    if (!location.id) {
+      return location.text;
+    }
+  
+    var $location = $(
+      '<span>' + location.text + '<br><small>' + location.city + '</small></span>'
+    );
+    return $location;
+  }
+  
