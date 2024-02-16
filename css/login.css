@@ -15,12 +15,11 @@ margin-top: 4px;
 .login-page .form .login{
   margin-top: -31px;
 margin-bottom: 26px;
+
 }
 .form {
-  opacity: 500%;
   position: relative;
   z-index: 1;
-  
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -71,7 +70,7 @@ margin-bottom: 26px;
 }
 
 body {
-  background-color: #328f8a;
+  background-color: #e99c0e;
   background:url(https://i.postimg.cc/VsW0CGC8/login1.avif) no-repeat center center fixed ;
   background-size: cover;
   font-family: "Roboto", sans-serif;
@@ -81,5 +80,9 @@ body {
 
 .login .login-header
 {
-  color: #11cccc;
+  color: #e60404;
+}
+.login-page h3, p, input, button 
+{
+ opacity: 90%;
 }
