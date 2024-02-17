@@ -1,0 +1,42 @@
+body {
+    background: url(https://i.postimg.cc/QtBsn4Kx/cool.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+ 
+   opacity: 80%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0cdbd1;
+    border-radius: 5px;
+    background-color: rgb(236, 240, 240);
+   
+}
+input[type="text"], input[type="email"],input[type="tel"],input[type="date"], input[type="time"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.container h2, form, label, input, option 
+{
+   opacity:90% ;
+}
